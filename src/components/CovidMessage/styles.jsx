@@ -2,10 +2,10 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#2b80ff',
+    backgroundColor: '#1065e9',
     padding: 15,
-    boarderTopLeftRadius: 10,
-    boarderTopRightRadius: 10,
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
   },
   title: {
     color: 'white',
@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   learnMore: {
-    color: 'white',
+    color: '#fff',
     fontSize: 15,
     fontWeight: 'bold',
   },

@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Image, Text} from 'react-native';
-import styles from './styles';
+import styles from './styles.jsx';
 
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
@@ -19,12 +19,11 @@ const UberTypeRow = (props) => {
 
   return (
     <View style={styles.container}>
-      {/*  Image */}
       <Image style={styles.image} source={getImage()} />
 
       <View style={styles.middleContainer}>
         <Text style={styles.type}>
-          {type.type} <Ionicons name={'person'} size={16} />3
+          {type.type} <Ionicons name={'Hayden'} size={16} />
         </Text>
         <Text style={styles.time}>8:03PM drop off</Text>
       </View>
