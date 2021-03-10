@@ -14,7 +14,7 @@ const UberTypeRow = (props) => {
     if (type.type === 'Comfort') {
       return require('../../assets/images/Comfort.jpeg');
     }
-    return require('../../assets/images/UberXL.jpeg');
+    return require('../../assets/images/U6berXL.jpeg');
   };
 
   return (

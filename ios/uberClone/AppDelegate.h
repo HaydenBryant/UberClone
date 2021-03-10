@@ -1,8 +1,7 @@
-#import <React/RCTBridgeDelegate.h>
-#import <UIKit/UIKit.h>
++ #import<React / RCTBridgeDelegate.h> + #import<UIKit / UIKit.h> + #import<GoogleMaps / GoogleMaps.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate, RCTBridgeDelegate>
+    @interface AppDelegate:UIResponder<UIApplicationDelegate, RCTBridgeDelegate>
 
-@property (nonatomic, strong) UIWindow *window;
+@property(nonatomic, strong) UIWindow *window;
 
 @end
