@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Image, Text} from 'react-native';
-import styles from './styles.jsx';
+import styles from './styles';
 
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
@@ -14,7 +14,7 @@ const UberTypeRow = (props) => {
     if (type.type === 'Comfort') {
       return require('../../assets/images/Comfort.jpeg');
     }
-    return require('../../assets/images/U6berXL.jpeg');
+    return require('../../assets/images/UberXL.jpeg');
   };
 
   return (

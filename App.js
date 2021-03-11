@@ -9,8 +9,8 @@
 import React from 'react';
 import {StatusBar} from 'react-native';
 
-import SearchResults from './src/screens/SearchResults/index.jsx';
-import HomeScreen from './src/screens/HomeScreen/index.jsx';
+import SearchResults from './src/screens/SearchResults/index.js';
+import HomeScreen from './src/screens/HomeScreen/index.js';
 
 const App: () => React$Node = () => {
   return (

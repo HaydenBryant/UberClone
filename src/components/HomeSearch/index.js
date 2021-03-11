@@ -5,7 +5,7 @@ import AntDesign from 'react-native-vector-icons/AntDesign';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import Entypo from 'react-native-vector-icons/Entypo';
 
-import styles from './styles.jsx';
+import styles from './styles';
 
 const HomeSearch = (props) => {
   return (
