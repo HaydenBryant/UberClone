@@ -6,6 +6,7 @@
  * @flow strict-local
  */
 
+import 'react-native-gesture-handler';
 import React, {useEffect} from 'react';
 // import {StatusBar} from 'react-native';
 import {
@@ -20,9 +21,7 @@ import {
 } from 'react-native';
 import Geolocation from '@react-native-community/geolocation';
 
-import SearchResults from './src/screens/SearchResults/index.js';
-import HomeScreen from './src/screens/HomeScreen/index.js';
-import DestinationSearch from './src/screens/DestinationSearch/index.js';
+import Router from './src/navigation/Root';
 
 navigator.geolocation = require('@react-native-community/geolocation');
 
@@ -63,7 +62,7 @@ const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <DestinationSearch />
+      <Router />
     </>
   );
 };
