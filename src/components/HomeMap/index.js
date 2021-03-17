@@ -1,4 +1,4 @@
-import { transform } from "@babel/core";
+import {transform} from '@babel/core';
 import React from 'react';
 import {Image, FlatList} from 'react-native';
 import MapView, {PROVIDER_GOOGLE, Marker} from 'react-native-maps';
@@ -35,10 +35,12 @@ const HomeMap = (props) => {
             style={{
               width: 70,
               height: 70,
-              resizeMode: 'contain'
-              transform: [{
-                rotate: `${car.heading}deg`
-              }]
+              resizeMode: 'contain',
+              transform: [
+                {
+                  rotate: `${car.heading}deg`,
+                },
+              ],
             }}
             source={getImage(car.type)}
           />
